@@ -1,0 +1,3080 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM#"
+     xml:base="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM">
+        <dc:title>Mining Waste Facility (MWF) Ontology</dc:title>
+        <terms:contributor></terms:contributor>
+        <terms:creator>Rajesh PIRYANI, Researcher AKKODIS Research</terms:creator>
+        <terms:description>An ontology for Mining Waste Facilities.</terms:description>
+        <terms:license></terms:license>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/alternativeTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/alternativeTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+        <rdfs:comment>A safer or more sustainable substitute for a hazardous reagent used in industrial processes</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/appliesTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/appliesTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/assess -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/assess">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/canCauseImpact -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/canCauseImpact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/containsHazardousSubstance -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/containsHazardousSubstance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HazardousSubstance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/definedByRegulation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/definedByRegulation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MonitoringRequirement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Regulation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/deliveredByCompetentAuthority -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/deliveredByCompetentAuthority">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Authority"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/generateResidualMaterial -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/generateResidualMaterial">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResidualMaterial"/>
+        <rdfs:comment>Waste material remaining after recovery processes, which may still contain hazardous substances</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasActivity -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasActivity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAirborneHazard -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAirborneHazard">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExcavationActivity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasArea -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasArea">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"/>
+        <rdfs:comment>This term is analogus to structure of deposit/mine</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentMethod -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentMetric -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentMetric">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metric"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCharacteristics -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCharacteristics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCommunityEngagementStrategy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCommunityEngagementStrategy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CommunityEngagementStrategy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasControlMeasure -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasControlMeasure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResidualMaterial"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEconomicEvaluation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEconomicEvaluation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicEvaluationOperation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEmergencyProtocol -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEmergencyProtocol">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HazardousSubstance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EmergencyProtocol"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnvironmentalAndRiskAnalysis -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnvironmentalAndRiskAnalysis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalAndRiskAnalysisOperation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnvironmentalImpact -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnvironmentalImpact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingPlant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEquipment -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEquipment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEvaluationParameter -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEvaluationParameter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExecutionofSamplingPlan -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExecutionofSamplingPlan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExecutionOfSamplingPlan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExploitationExtraction -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExploitationExtraction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExplorationActivity -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExplorationActivity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationActivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeoDP -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeoDP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoreferencedDataPoints"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGranulometry -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGranulometry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasImpact -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasImpact">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RestorationTechnique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasIncident -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasIncident">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLaboratoryAnalysis -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLaboratoryAnalysis">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLevel -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLocation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Location"/>
+        <rdfs:comment>Futher it would be elaborated depending upon the information
+hasCoordinateLocation would be defined in future depending GIS information</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMW -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMW">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWF"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWF -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWF">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWFMaterial -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWFMaterial">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMaterial -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMaterial">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMetal -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMetal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMethodology -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMethodology">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Methodology"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMineral -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMineral">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+        <rdfs:comment>This property solve the case study 1.2 type of mineralization feature main minerals</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasNACECode -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasNACECode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicActivity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NACECode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOperation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOperation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasProcessingPlant -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasProcessingPlant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingPlant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRegulation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRegulation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Regulation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRemediationTechnique -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRemediationTechnique"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRestorationTechnique -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRestorationTechnique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ReclamationActivity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RestorationTechnique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRestriction -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRestriction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRisk -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRisk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasScenario -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasScenario">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSiteCondition -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSiteCondition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSustainability -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSustainability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasTechnique -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasTechnique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWasteDisposalMethod -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWasteDisposalMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteDisposalMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWasteType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWasteType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isUsedOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isUsedOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/needPermit -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/needPermit">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/needsMonitoringRequirement -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/needsMonitoringRequirement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MonitoringRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/recoversMW -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/recoversMW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryActivity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesReagent -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesReagent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesStandard -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesStandard">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Standards"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesTechnique -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesTechnique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryActivity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExcavationActivity"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAirboneHazardConcentration -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAirboneHazardConcentration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"/>
+        <rdfs:comment>The amount and density of airborne particulate matter released during excavation activities</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentData -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentData">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCategory -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCategory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasComposition -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasComposition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDensity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDensity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDepth -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDepth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDrillholeExtraction -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDrillholeExtraction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEfficiency -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEfficiency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnergy -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnergy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasFinished -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasFinished">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeographicalScale -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeographicalScale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+        <rdfs:comment>Both the scale that a proposed activity takes up in the landscape as well as its environmental impact outside its boundary</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeotechnicalStability -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeotechnicalStability">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasHeight -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasHeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasInput -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasInput">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLegalStatus -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLegalStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLength -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLength">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLikelihood -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLikelihood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMechanicalResistance -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMechanicalResistance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MacroscopicCharacteristics"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMineName -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMineName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMorphologicalStructure -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMorphologicalStructure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOpenPit -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOpenPit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOwner -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOwner">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasParticleSize -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasParticleSize">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry"/>
+        <rdfs:comment>Pilot Sites
+The particle size of MWF material</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasProximity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasProximity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasQuality -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasQuality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasQuantity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasQuantity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRecommandedParameter -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRecommandedParameter">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRequirment -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRequirment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"/>
+        <rdfs:comment>LCA Mining Requirements
+The technical, methodological, and data-related prerequisites for conducting an accurate and transparent LCA in the mining sector, including access to reliable data, clearly defined system boundaries, functional</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSituation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSituation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"/>
+        <rdfs:comment>LCA Mining Situations
+
+Different contexts or application areas in which LCA is used in mining.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSizeDistribution -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSizeDistribution">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry"/>
+        <rdfs:comment>Pilot Sites
+
+The particle size distribution of MWF material</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasStatus -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasThickness -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasThickness">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasUndergroundExtraction -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasUndergroundExtraction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasVegetation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasVegetation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasVolume -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasVolume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWeight -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWeight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MorphologicalCharacteristics"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWidth -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWidth">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHazardous -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHazardous">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+        <rdfs:comment>A reagent that poses risks to health or the environment due to its toxic, corrosive or reactive properties</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHeavyMetal -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHeavyMetal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>Dense elements or compound, often metals, found in tailings that may pose environmental or health risks</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHistoricalIncident -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHistoricalIncident">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isMetricSuccessful -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isMetricSuccessful">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metric"/>
+        <rdfs:comment>Relevant data collection and associated metrics that translate into representative information that can be used to define whether restoration has a positive impact on biodiversity</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isReagentConventional -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isReagentConventional">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isWasteType -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isWasteType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM#Crushing&amp;MillingEquipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM#Crushing&amp;MillingEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"/>
+        <rdfs:comment>What machinery/equipment is suitable to achieve desired particle size.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity">
+        <rdfs:comment>When the deposit is in operation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneContaminant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneContaminant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustHazard"/>
+        <rdfs:comment>Harmful substances suspended in the air, such as heavy metals or silica, that pose inhalation risk</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Authority -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Authority"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentGuideline -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentMethod -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+        <rdfs:comment>Any change caused by a proposed activity to species and habitats, ecosystems and landscapes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BlastingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BlastingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ChemicalAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ChemicalAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+        <rdfs:comment>process of determining the chemical composition of a substance using a range of methods and instruments to identify, characterize, and quantify its components</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CommunityEngagementStrategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CommunityEngagementStrategy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CompactionOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CompactionOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Compaction of minerals includes the technologies for moving and densifying minerals by vibration, impaction and pressure, 
+mainly used in construction applications</rdfs:comment>
+        <rdfs:comment xml:lang="en">MWEI BREF : Process resulting in a reduction in volume. The change typically results from externally applied loads, creating tighter packing of the solid particles. In fine soils in particular, this requires an egress of pore water. Greater compaction 
+often results in increased consolidation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure">
+        <rdfs:comment>Techniques or technologies used to reduce exposure to hazardous substances, such as water sprays or enclosures</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CountryLevel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CountryLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Covers -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Covers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Liners"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CrushingAndScreeningOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CrushingAndScreeningOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Crushing and screening is the first controlled size reduction stage in the process. This is the main process in aggregate  production and a preparation process for further size reduction.</rdfs:comment>
+        <rdfs:comment xml:lang="en">MWEI BREF : Comminution process that reduces the particle size of ore to such a level that  grinding can be carried out. Usually, this is accomplished by compression of  ore against rigid surfaces, or by impact against surfaces in a rigidly constrained motion path.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">MWEI BREF : Screening Separating material into size fractions.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DesktopProximityGuideline -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DesktopProximityGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"/>
+        <rdfs:comment>Guideline defining the scope and purpose of a desktop proximity analysis, and how to use its output</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DewateringOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DewateringOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">MWEI BREF : Process of removing water from an underground mine or open pit, or from the  surrounding rock or non-lithified area. The term is also commonly used for the reduction of water content in concentrates, extractive waste from mineral  processing and treatment sludge. In hydrocarbon extraction, dewatering may  refer to removing water from water-based drilling muds and cuttings.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DrillingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DrillingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Drilling (and blasting) is the technology of achieving primary fragmentation of “in situ” minerals. This is the starting point for  most mineral processes with the exception of natural minerals in the form of sand and gravel.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustEmission -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustEmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustHazard -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustHazard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EULevel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EULevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicActivity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicEvaluationOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicEvaluationOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicRestriction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicSustainability -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicSustainability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalRisk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalRisk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"/>
+        <rdfs:comment>The potential financial loss or cost associated with hazardous substance management or incidents</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectricalTomographyOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectricalTomographyOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"/>
+        <rdfs:comment>non-invasive imaging technique that creates 2D or 3D images of an object&apos;s electrical properties by injecting electric current and measuring the voltage differences</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectrodeEquipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectrodeEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EmergencyProtocol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EmergencyProtocol">
+        <rdfs:comment>Predefined procedures for responding to hazardous substances releases or other emergencies</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Enclosures -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Enclosures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalAndRiskAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalAndRiskAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalFootprintEnvironmentalSustainability -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalFootprintEnvironmentalSustainability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalSustainability"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RegulationAndComplianceEnvironmentalSustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+        <rdfs:comment xml:lang="en">MWEI BREF : The direct or indirect introduction, as a result of human activity, of 
+substances, vibrations, heat or noise into air, water or land which may be 
+harmful to human health or the quality of the environment, result in damage 
+to material property, or impair or interfere with amenities and other legitimate 
+uses of the environment.</rdfs:comment>
+        <rdfs:comment>Any change caused by a proposed activity to land, water, air and biodiversity</rdfs:comment>
+        <rdfs:comment>The environmental effects identified and quantified through LCA in relation to mining operations.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpactMeasurement -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpactMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRestriction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRisk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRisk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"/>
+        <rdfs:comment>Potential harm to the environment caused by hazardous substances or activities</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalSustainability -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalSustainability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StandardizedProtocols"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExcavationActivity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExcavationActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:isDefinedBy>The process of digging or removing tailings, which may release hazardous substances into the air</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExecutionOfSamplingPlan -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExecutionOfSamplingPlan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedBenefitScenario -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedBenefitScenario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedCostScenario -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedCostScenario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedRiskScenario -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedRiskScenario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction">
+        <rdfs:comment>This need to be furnished after expert discussion. 
+After that we need to decide it should be object property or class.
+Currently, we observe that it has many characteristics, for that reason we define as class.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationActivity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:comment>subclass of INSPIRE ExploratinActivity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/FeedingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/FeedingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"/>
+        <rdfs:comment>LCA is a method for evaluating environmental impacts across the entire life cycle of products, processes, or services.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoElectricalInversionOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoElectricalInversionOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"/>
+        <rdfs:comment xml:lang="en">geophysical process of mathematically modelling subsurface electrical resistivity distributions from measured geoelectrical data</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysis -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoreferencedDataPoints -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoreferencedDataPoints"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"/>
+        <rdfs:comment>Engineering analysis to determine the properties of a site&apos;s soil and rock, identifying conditions, risks, and mechanical properties to ensure the stability and safety of a construction or infrastructure project.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GoalAndScopeDefinition -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GoalAndScopeDefinition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry">
+        <rdfs:comment>CQ: Crushing and Milling
+What is the particle size and size distribution of the mining waste?</rdfs:comment>
+        <rdfs:comment>MINNERSA, SGS
+In this case, it is the classification of a mineral&apos;s size. A particle size analysis determines the proportion of minerals in different fractions. This is an important characteristic when processing minerals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GreenHouseGasEmission -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GreenHouseGasEmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GrindingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GrindingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Grinding is the stage of size reduction (wet or dry) where the liberation size for individual minerals can be reached. By further size reduction filler (mineral powder) is produced.</rdfs:comment>
+        <rdfs:comment xml:lang="en">MWEI BREF : Comminution process yielding a fine product (&lt; 1 mm), where size reduction 
+is accomplished by abrasion and impact and sometimes supported by the free 
+motion of unconnected media such as rods, balls and pebbles.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GroundPenetratingRadarOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GroundPenetratingRadarOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsAssessmentMethod -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsAssessmentMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentMethod"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesAssessmentMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact"/>
+        <rdfs:comment>The impact of a proposed activity on the extent and condition of habitats</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsManagementGuideline -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsManagementGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"/>
+        <rdfs:comment>Guideline defining how to decide on management measures that create the best possible positive outcome for habitat extent and condition</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HazardousSubstance -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HazardousSubstance">
+        <rdfs:comment>Any material that poses a threat to human health or the environment due to its chemical or physical properties</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+        <rdfs:comment>Documented or potential effects of recovery operations on the health of nearby populations</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthRisk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthRisk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"/>
+        <rdfs:comment>Potential harm to human health due to exposure to hazardous substances or unsafe conditions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Humidity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident">
+        <rdfs:comment>Specific events involving hazardous substance release or exposure, including their nature and management</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/IndustrialMineral -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/IndustrialMineral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Interpretation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Interpretation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCI -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCIA -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCIA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"/>
+        <rdfs:comment>As per D9.1, this term coined as analysis</rdfs:comment>
+        <rdfs:comment>D2.1: Laboratory analyses are essential to deepen the characterization of materials present in MWFs, aiming to evaluate their potential for recovery or management.</rdfs:comment>
+        <rdfs:comment>This class has been created on the bais D2.2 Section 4.2.1.4
+
+
+Secondly on the basis of previous data received from the partners:
+Q4: The size and extent of the waste
+Mineralogy- XRD
+SEM/EDS
+Electron probe microanalysis (EPMA)
+https://confluence.akka.eu/pages/viewpage.action?spaceKey=AKRSCIMIN&amp;title=Data+Analysis+of+WP2+SGS</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LandImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LandImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LeachingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LeachingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">MWEI BREF : Extraction of soluble components from raw materials by the action of a percolating liquid (e.g. water). For example, gold can be extracted by heap 
+leaching of a porous ore, or pulverised extractive waste from mineral  processing. Other methods are tank leaching of ore, concentrates or extractive waste from mineral processing and in-situ leaching. Leaching may also be an unwanted process leading to polluted drainage (see &quot;leachate&quot;). Bio-leaching is a particular form of leaching involving living organisms</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LegalRestriction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LegalRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+        <rdfs:comment>Laws and regulations that may limit or condition recovery operations</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LightPollution -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LightPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Liners -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Liners">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LoadingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LoadingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LocalLevel -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LocalLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Location -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Location">
+        <rdfs:comment>General information, location of deposit, extisting infrastructure issues, map of location.</rdfs:comment>
+        <rdfs:comment>https://www.wikidata.org/wiki/Property:P625</rdfs:comment>
+        <rdfs:comment>https://www.wikidata.org/wiki/Q142</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MacroscopicCharacteristics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MacroscopicCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material">
+        <rdfs:comment>INSPIRE: EarthMaterial is an abstract class which holds a description of a naturally occurring substance in the Earth. Earth Material represents material composition or substance, and is thus independent of quantity or location.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Materials handling includes the technologies for moving the process flow (dry) forward by loading, transportation, storage  and feeding</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialMeasurement -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+        <rdfs:comment>More concept will be cleared in EXPERT
+Currently, we read from the internet, &quot;Metal that exist in nature are minerals&quot;
+
+https://www.geologyin.com/2016/03/what-is-difference-between-rock-mineral.html</rdfs:comment>
+        <rdfs:comment>On the basis of current infomation, received from the partner for queastion 3
+3) What form those metals are present in those minerals, 
+
+These things will be defined clearly with expert discussion.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Methodology -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Methodology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metric -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metric">
+        <rdfs:comment>Metrics that translate collected data into representative information that can be used in decision-making</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MicroscopicCharacteristics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MicroscopicCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MillingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MillingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">MWEI BREF : Operation during which ore is treated for the recovery and/or concentration of valuable minerals prior to shipment to a smelter or refinery. Milling
+processes include crushing, grinding, screening, concentration and dewatering. At a coal mine, the mill is referred to as a wash plant, tipple or cleaner</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine">
+        <rdfs:comment xml:lang="en">MWEI BREF : Area under the control of an operator where mining occurs (see &quot;mining&quot;), 
+including common related infrastructure and waste management activities.</rdfs:comment>
+        <rdfs:comment>INSPIRE: An excavation carried out for the extraction of mineral deposits.</rdfs:comment>
+        <rdfs:comment>Subclass of INSPIRE Mine Feature</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral">
+        <rdfs:comment xml:lang="en">METSO Handbook : Mineral is a natural inorganic substance precisely defined 
+according to its physical and chemical characteristics</rdfs:comment>
+        <rdfs:comment>In the future, create a relation between mineral and metal to represent the chemical processes to do to extract the metal from the mineral.
+
+This define on the basis of partner information.
+On the current information which we received &quot;4 main questions we try to answer (which each require different methods):&quot; first 2 questions</rdfs:comment>
+        <rdfs:comment>Subclass of Commodity Measure
+If cutOffGrade and Grade is unrelated to quality we have to put new properties related to quality</rdfs:comment>
+        <rdfs:isDefinedBy>INSPIRE: Mineral is defined as any naturally occurring inorganic element or compound having a periodically repeating arrangement of atoms and a characteristic chemical composition or range of compositions, resulting in distinctive physical properties</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralMeasurement -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"/>
+        <rdfs:comment xml:lang="en">MWEI BREF : Mineral processing (also 
+beneficiation or 
+benefication, ore 
+dressing, mineral 
+dressing, milling) 
+Processes to produce marketable mineral products (e.g. concentrates) from 
+mineral resources. This is usually carried out on the mine or quarry site, the 
+plant being referred to as the mineral processing plant (mill or concentrator). 
+The essential purpose is to reduce the bulk of the ore, which must be 
+transported to and processed by subsequent processes (e.g. smelting), by 
+using methods to separate the valuable (desired) mineral(s) from the gangue. 
+The marketable product of this is called concentrate, the remaining material is 
+called extractive waste from mineral processing (e.g. tailings).
+Mineral processing includes various procedures that rely on the mineral&apos;s 
+physical characteristics (i.e. particle size, density, magnetic properties, colour) 
+or physico-chemical properties (surface tension, hydrophobicity, wettability).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysis -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+        <rdfs:comment>Determines the types and relative amounts of minerals within a material, providing insights into its composition, properties, and formation conditions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalCharacteristics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA"/>
+        <rdfs:comment>LCA in mining is a systematic method for identifying, quantifying, and evaluating the environmental impacts associated with the entire life cycle of mining-related processes and products, from exploration and extraction to processing, transportation, use, and end-of-life management.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste">
+        <rdfs:comment xml:lang="en">MWEI BREF : Waste resulting from the prospecting, extraction, treatment and storage of 
+mineral resources and the working of quarries</rdfs:comment>
+        <rdfs:comment>Mining activity exploits a mineral deposit, obtaining a concentrate (mineral object of the activity) and waste.</rdfs:comment>
+        <rdfs:comment>Subclass of Mining Waste from INSPIRE ontology
+
+Note: for URI consult to INSPIRE Team</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility">
+        <rdfs:comment xml:lang="en">MWEI BREF : Any area under the responsibility of an operator where extractive waste is 
+handled, treated, accumulated or deposited whether in a solid or liquid state or 
+in solution or suspension. This includes, but is not limited to, Extractive 
+Waste Facilities, excavation voids where extractive waste is placed back, and 
+areas for temporary storage of extractive waste.</rdfs:comment>
+        <rdfs:comment>A mining waste facility is a designated site or structure used to store extractive waste (includes materials like waste rock and tailings from mining and mineral processing operations).</rdfs:comment>
+        <rdfs:comment>Mining Waste Facilities (MWF): (SCIMIN-GA)
+defined by JRC as any area designated for the accumulation or deposit of extractive waste, whether in solid or liquid state or in solution or suspension, derived from extracting &amp; processing mineral resources. 
+Reference Grant Agreement (GA).
+
+Mining Waste (INSPIRE Model)
+Mining waste can be defined as a part of the materials that result from the exploration, mining and processing of substances governed by legislation on mines and quarries.</rdfs:comment>
+        <rdfs:comment>sublcass of mining wasting  from INSPIRE
+
+Note: for URI, we need to consult INSPIRE team because current it is not mentioned in specification document and nor on website</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteMeasurement -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteMeasurement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationEnvironmentalImpactProcedure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationEnvironmentalImpactProcedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationProcedure"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialAcceptanceProcedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationProcedure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationProcedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Procedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MonitoringRequirement -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MonitoringRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MorphologicalCharacteristics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MorphologicalCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MulticableEquipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MulticableEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NACECode -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NACECode">
+        <rdfs:comment>URI accessible on European site, for example : B7 : http://data.europa.eu/ux2/nace2.1/07
+Don&apos;t need to create any property</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NoisePollution -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NoisePollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation">
+        <rdfs:comment>It is an Activity</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Ore -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Ore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : An ore is a mineral or rock containing metal ore mineral 
+concentrations that can be economically extracted. The ore is 
+the source from where the metal or other mineral substances 
+are extracted</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PPEProtocol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PPEProtocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SafetyProtocol"/>
+        <rdfs:comment>Personal Protective Equipment (PPE), used to safeguard workers from exposure to hazardous substances</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit">
+        <rdfs:comment>License or consent to do or say something. (MINERSA, SGS)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PetrologicalAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PetrologicalAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAnalysis -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAnalysis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAndEnvironmentalTestingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAndEnvironmentalTestingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Preparation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Preparation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PrimaryCrushingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PrimaryCrushingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">MWEI BREF : Process of reducing ore into smaller fragments to prepare it for further  processing and/or so that it can be transported to the processing plant. In 
+underground mines, the primary crusher is often located underground or at the 
+entrance to the processing plant.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Procedure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Procedure"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingEquipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"/>
+        <rdfs:comment>What machinery/equipment is suitable to achieve desired particle size.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingPlant -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingPlant">
+        <rdfs:comment xml:lang="en">MWEI BREF : Facility where mineral processing is carried out.
+Mineral processing (also 
+beneficiation or 
+benefication, ore 
+dressing, mineral 
+dressing, milling) 
+Processes to produce marketable mineral products (e.g. concentrates) from 
+mineral resources. This is usually carried out on the mine or quarry site, the 
+plant being referred to as the mineral processing plant (mill or concentrator). 
+The essential purpose is to reduce the bulk of the ore, which must be 
+transported to and processed by subsequent processes (e.g. smelting), by 
+using methods to separate the valuable (desired) mineral(s) from the gangue. 
+The marketable product of this is called concentrate, the remaining material is 
+called extractive waste from mineral processing (e.g. tailings).
+Mineral processing includes various procedures that rely on the mineral&apos;s 
+physical characteristics (i.e. particle size, density, magnetic properties, colour) 
+or physico-chemical properties (surface tension, hydrophobicity, wettability).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PyroProcessingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PyroProcessingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Pyro processing includes the technologies for upgrading of the mineral fractions by drying, calcining or sintering.</rdfs:comment>
+        <rdfs:comment xml:lang="en">MWEI BREF : Incineration is a high-temperature combustion/oxidation process in which organic wastes are converted into gases and solid residue. Incineration 
+objectives usually include reducing toxicity and volume prior to disposal of 
+solid residues.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/QualityAssuranceAndControlOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/QualityAssuranceAndControlOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent">
+        <rdfs:comment>A substance or compound added to a system to cause a chemical reaction or test for the presence of another substance</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ReclamationActivity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ReclamationActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:isDefinedBy>The relationship between reclamation and its impact on species presence and extinction risk, habitat extent and condition</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryActivity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Regulation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Regulation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RegulationAndComplianceEnvironmentalSustainability -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RegulationAndComplianceEnvironmentalSustainability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalSustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResidualMaterial -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResidualMaterial">
+        <rdfs:comment>Waste material remaining after recovery processes, which may still contain hazardous substances</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResistivimeterEquipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResistivimeterEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RestorationTechnique -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RestorationTechnique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique"/>
+        <rdfs:comment>Catalog of restoration activities and their relative success in positively impacting species and habitats under different abiotic, biotic, and landscape conditions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk">
+        <rdfs:comment>The probability and severity of adverse effects resulting from exposure to a hazard</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Rock -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Rock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Rock is an aggregate of one or several minerals, forming the great  mass of the earth’s crust. In certain cases, rock may consist of  one single mineral as in the cases of limestone, which consists  only of calcite, stratified clayish rock and quartzite layers, etc.  Rocks may be solid, like granite, or unconsolidated like sand.  Normally, rocks are formed by more than one mineral. Some  of the minerals are predominant and form the essential  components, and others, in smaller proportions, constitute the  accessory minerals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SafetyProtocol -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SafetyProtocol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol"/>
+        <rdfs:comment>Standard procedures and guidelines designed to protect workers from health and safety risks</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleCrushingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleCrushingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleDryingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleDryingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleMilingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleMilingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingActivity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"/>
+        <rdfs:isDefinedBy>MINNERSA, SGS
+It is work required to take a sample</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+        <rdfs:comment>Once a mineral sample has been taken, a series of tasks must be carried out to allow its subsequent analysis.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SlurryProcessingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SlurryProcessingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"/>
+        <rdfs:comment xml:lang="en">METSO Handbook : Slurry processing includes the technologies for wet processing of mineral fractions.</rdfs:comment>
+        <rdfs:comment xml:lang="en">MWEI BREF : Slurry A suspension of liquids and solids</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialAcceptanceProcedure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialAcceptanceProcedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationProcedure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialRestriction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialSustainability -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialSustainability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpatialRestriction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpatialRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesAssessmentMethod -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesAssessmentMethod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact"/>
+        <rdfs:comment>The impact of a proposed activity on the presence or absence of species and their level of extinction risk</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesManagementGuideline -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesManagementGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"/>
+        <rdfs:comment>Guideline defining how to decide on management measures that create the best possible positive outcome for species presence and reducing extinction risk</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StandardizedProtocols -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StandardizedProtocols">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExecutionOfSamplingPlan"/>
+        <rdfs:comment>MINNERSA, SGS
+A set of rules, procedures, or guidelines agreed upon and recognized by a community or industry to ensure consistency, interoperability, and efficiency in various situations</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Standards -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Standards">
+        <rdfs:comment>International and national guidelines and norms for conducting LCA in the mining sector.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StoringOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StoringOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Strategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TechnologicalRestriction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TechnologicalRestriction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ThermalAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ThermalAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+        <rdfs:comment>Added as per D9.1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ThermogravimetricAnalysisOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ThermogravimetricAnalysisOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"/>
+        <rdfs:comment>Added as per D9.1</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportEquipment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportEquipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportationOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportationOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/UnloadingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/UnloadingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VerticalElectricalSoundingOperation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VerticalElectricalSoundingOperation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VibrationEmission -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VibrationEmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteDisposalMethod -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteDisposalMethod">
+        <rdfs:comment>Note: Read the INSPIRE model, it talks about directives.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteType -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterPollution -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterPollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterSprays -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterSprays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Weather -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Weather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WildlifeImpact -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WildlifeImpact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM#Crushing&amp;MillingEquipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingEquipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportEquipment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentGuideline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DesktopProximityGuideline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsManagementGuideline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesManagementGuideline"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ChemicalAnalysisOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysisOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAndEnvironmentalTestingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/QualityAssuranceAndControlOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CompactionOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CrushingAndScreeningOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DrillingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GrindingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MillingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PyroProcessingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SlurryProcessingOperation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Enclosures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterSprays"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CountryLevel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EULevel"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LocalLevel"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustEmission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GreenHouseGasEmission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LightPollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NoisePollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VibrationEmission"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterPollution"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WildlifeImpact"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicRestriction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRestriction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialRestriction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpatialRestriction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TechnologicalRestriction"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalRisk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRisk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthRisk"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectricalTomographyOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoElectricalInversionOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GroundPenetratingRadarOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VerticalElectricalSoundingOperation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectrodeEquipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MulticableEquipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResistivimeterEquipment"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/FeedingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LoadingOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StoringOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportationOperation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/UnloadingOperation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalCharacteristics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAnalysis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GoalAndScopeDefinition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Interpretation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCIA"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/IndustrialMineral"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Ore"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Rock"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialMeasurement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralMeasurement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteMeasurement"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
