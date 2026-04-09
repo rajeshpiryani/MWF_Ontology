@@ -1,0 +1,15 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http:/purl.org/scimin-crm-mwf/1.0> a prov:Entity;
+	 dc:title "Sustainable & Circular Production of Mineral Critical Raw Materials and Mining Waste Facility  (SCIMIN_CRM & MWF) Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <http:/purl.org/scimin-crm-mwf>;
+.
+:agent0 a prov:Agent; foaf:name "Rajesh PIRYANI, Researcher AKKODIS Research
+Sadeq ZOUGARI, Researcher AKKODIS Research".
+:agent1 a prov:Agent; foaf:name "Rajesh PIRYANI, Researcher AKKODIS Research
+Sadeq ZOUGARI, Researcher AKKODIS Research".

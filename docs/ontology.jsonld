@@ -3,63 +3,61 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM#Crushing&MillingEquipment"
+      "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityAssessmentGuideline"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingEquipment"
+      "@id" : "http:/purl.org/scimin-crm-mwf/DesktopProximityGuideline"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportEquipment"
+      "@id" : "http:/purl.org/scimin-crm-mwf/HabitatsManagementGuideline"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/SpeciesManagementGuideline"
     } ]
   } ]
 }, {
-  "@id" : "_:genid10",
+  "@id" : "_:genid12",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ChemicalAnalysisOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/CompactionOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysisOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/CrushingAndScreeningOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAndEnvironmentalTestingOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/DrillingOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/QualityAssuranceAndControlOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/GrindingOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/MaterialHandlingOperation"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/MillingOperation"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/PyroProcessingOperation"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/SlurryProcessingOperation"
     } ]
   } ]
 }, {
-  "@id" : "_:genid16",
+  "@id" : "_:genid21",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CompactionOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/ContainmentSystem"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CrushingAndScreeningOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/Enclosures"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DrillingOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/Protocol"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GrindingOperation"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MillingOperation"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PyroProcessingOperation"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SlurryProcessingOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/WaterSprays"
     } ]
   } ]
 }, {
-  "@id" : "_:genid25",
+  "@id" : "_:genid26",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem"
+      "@id" : "http:/purl.org/scimin-crm-mwf/CountryLevel"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Enclosures"
+      "@id" : "http:/purl.org/scimin-crm-mwf/EULevel"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterSprays"
+      "@id" : "http:/purl.org/scimin-crm-mwf/LocalLevel"
     } ]
   } ]
 }, {
@@ -67,11 +65,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CountryLevel"
+      "@id" : "http:/purl.org/scimin-crm-mwf/CrushingMillingEquipment"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EULevel"
+      "@id" : "http:/purl.org/scimin-crm-mwf/ProcessingEquipment"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LocalLevel"
+      "@id" : "http:/purl.org/scimin-crm-mwf/TransportEquipment"
     } ]
   } ]
 }, {
@@ -79,19 +77,19 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustEmission"
+      "@id" : "http:/purl.org/scimin-crm-mwf/DustEmission"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GreenHouseGasEmission"
+      "@id" : "http:/purl.org/scimin-crm-mwf/GreenHouseGasEmission"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LightPollution"
+      "@id" : "http:/purl.org/scimin-crm-mwf/LightPollution"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NoisePollution"
+      "@id" : "http:/purl.org/scimin-crm-mwf/NoisePollution"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VibrationEmission"
+      "@id" : "http:/purl.org/scimin-crm-mwf/VibrationEmission"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterPollution"
+      "@id" : "http:/purl.org/scimin-crm-mwf/WaterPollution"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WildlifeImpact"
+      "@id" : "http:/purl.org/scimin-crm-mwf/WildlifeImpact"
     } ]
   } ]
 }, {
@@ -99,15 +97,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicRestriction"
+      "@id" : "http:/purl.org/scimin-crm-mwf/EconomicRestriction"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRestriction"
+      "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalRestriction"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialRestriction"
+      "@id" : "http:/purl.org/scimin-crm-mwf/SocialRestriction"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpatialRestriction"
+      "@id" : "http:/purl.org/scimin-crm-mwf/SpatialRestriction"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TechnologicalRestriction"
+      "@id" : "http:/purl.org/scimin-crm-mwf/TechnologicalRestriction"
     } ]
   } ]
 }, {
@@ -115,25 +113,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalRisk"
+      "@id" : "http:/purl.org/scimin-crm-mwf/EconomicalRisk"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRisk"
+      "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalRisk"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthRisk"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentGuideline"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DesktopProximityGuideline"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsManagementGuideline"
-    }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesManagementGuideline"
+      "@id" : "http:/purl.org/scimin-crm-mwf/HealthRisk"
     } ]
   } ]
 }, {
@@ -141,13 +125,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectricalTomographyOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/ElectricalTomographyOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoElectricalInversionOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/GeoElectricalInversionOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GroundPenetratingRadarOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/GroundPenetratingRadarOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VerticalElectricalSoundingOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/VerticalElectricalSoundingOperation"
     } ]
   } ]
 }, {
@@ -155,11 +139,27 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectrodeEquipment"
+      "@id" : "http:/purl.org/scimin-crm-mwf/ElectrodeEquipment"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MulticableEquipment"
+      "@id" : "http:/purl.org/scimin-crm-mwf/MulticableEquipment"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResistivimeterEquipment"
+      "@id" : "http:/purl.org/scimin-crm-mwf/ResistivimeterEquipment"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http:/purl.org/scimin-crm-mwf/ChemicalAnalysisOperation"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/MineralogicalAnalysisOperation"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/PhysicalAndEnvironmentalTestingOperation"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/QualityAssuranceAndControlOperation"
+    }, {
+      "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPreparationOperation"
     } ]
   } ]
 }, {
@@ -167,15 +167,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/FeedingOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/FeedingOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LoadingOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/LoadingOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StoringOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/StoringOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportationOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/TransportationOperation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/UnloadingOperation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/UnloadingOperation"
     } ]
   } ]
 }, {
@@ -183,11 +183,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysis"
+      "@id" : "http:/purl.org/scimin-crm-mwf/GeochemicalAnalysis"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalCharacteristics"
+      "@id" : "http:/purl.org/scimin-crm-mwf/MineralogicalCharacteristics"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAnalysis"
+      "@id" : "http:/purl.org/scimin-crm-mwf/PhysicalAnalysis"
     } ]
   } ]
 }, {
@@ -195,13 +195,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GoalAndScopeDefinition"
+      "@id" : "http:/purl.org/scimin-crm-mwf/GoalAndScopeDefinition"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Interpretation"
+      "@id" : "http:/purl.org/scimin-crm-mwf/Interpretation"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCI"
+      "@id" : "http:/purl.org/scimin-crm-mwf/LCI"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCIA"
+      "@id" : "http:/purl.org/scimin-crm-mwf/LCIA"
     } ]
   } ]
 }, {
@@ -209,13 +209,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/IndustrialMineral"
+      "@id" : "http:/purl.org/scimin-crm-mwf/IndustrialMineral"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal"
+      "@id" : "http:/purl.org/scimin-crm-mwf/Metal"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Ore"
+      "@id" : "http:/purl.org/scimin-crm-mwf/Ore"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Rock"
+      "@id" : "http:/purl.org/scimin-crm-mwf/Rock"
     } ]
   } ]
 }, {
@@ -223,11 +223,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialMeasurement"
+      "@id" : "http:/purl.org/scimin-crm-mwf/MaterialMeasurement"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralMeasurement"
+      "@id" : "http:/purl.org/scimin-crm-mwf/MineralMeasurement"
     }, {
-      "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteMeasurement"
+      "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteMeasurement"
     } ]
   } ]
 }, {
@@ -246,1517 +246,1457 @@
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM",
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExcavationActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/AirborneHazard"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/title" : [ {
-    "@value" : "Mining Waste Facility (MWF) Ontology"
+    "@value" : "Sustainable & Circular Production of Mineral Critical Raw Materials and Mining Waste Facility  (SCIMIN_CRM & MWF) Ontology"
   } ],
   "http://purl.org/dc/terms/contributor" : [ {
-    "@value" : ""
+    "@value" : "Rajesh PIRYANI, Researcher AKKODIS Research\nSadeq ZOUGARI, Researcher AKKODIS Research"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@value" : "Rajesh PIRYANI, Researcher AKKODIS Research"
+    "@value" : "Rajesh PIRYANI, Researcher AKKODIS Research\nSadeq ZOUGARI, Researcher AKKODIS Research"
   } ],
   "http://purl.org/dc/terms/description" : [ {
-    "@value" : "An ontology for Mining Waste Facilities."
+    "@value" : "It is an ontology for Sustainable and Circular Production of Critical Mineral Raw Materials and Mining Waste Facilities. It aims to represent the key concepts and relationships involved in the life cycle of Mining Waste Facilities (MWFs). By capturing this life cycle—from exploration and exploitation to closure—the ontology enables decision support and reasoning within the SCIMIN-CRM platform."
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@value" : ""
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM#Crushing&MillingEquipment",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "What machinery/equipment is suitable to achieve desired particle size."
+    "@value" : "This ontology is distributed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).\n\nLicense URL:\n\nhttps://creativecommons.org/licenses/by/4.0/"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/1.0"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "When the deposit is in operation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneContaminant",
+  "@id" : "http:/purl.org/scimin-crm-mwf/AirborneContaminant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Harmful substances suspended in the air, such as heavy metals or silica, that pose inhalation risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AirborneHazard"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustHazard"
+    "@id" : "http:/purl.org/scimin-crm-mwf/DustHazard"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard",
+  "@id" : "http:/purl.org/scimin-crm-mwf/AirborneHazard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Area",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod",
+  "@id" : "http:/purl.org/scimin-crm-mwf/AssessmentMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Authority",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Authority",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentGuideline",
+  "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityAssessmentGuideline",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Guidelines"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentMethod",
+  "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityAssessmentMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AssessmentMethod"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Any change caused by a proposed activity to species and habitats, ecosystems and landscapes"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BlastingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/BlastingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ChemicalAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ChemicalAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "process of determining the chemical composition of a substance using a range of methods and instruments to identify, characterize, and quantify its components"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CommunityEngagementStrategy",
+  "@id" : "http:/purl.org/scimin-crm-mwf/CommunityEngagementStrategy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CompactionOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/CompactionOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Compaction of minerals includes the technologies for moving and densifying minerals by vibration, impaction and pressure, \nmainly used in construction applications"
-  }, {
-    "@language" : "en",
-    "@value" : "MWEI BREF : Process resulting in a reduction in volume. The change typically results from externally applied loads, creating tighter packing of the solid particles. In fine soils in particular, this requires an egress of pore water. Greater compaction \noften results in increased consolidation"
+    "@value" : "Compaction of minerals includes the technologies for moving and densifying minerals by vibration, impaction and pressure, mainly used in construction applications.\n\nMWEI BREF : Process resulting in a reduction in volume. The change typically results from externally applied loads, creating tighter packing of the solid particles. In fine soils in particular, this requires an egress of pore water. Greater compaction often results in increased consolidation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ContainmentSystem",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ControlMeasure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ControlMeasure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Techniques or technologies used to reduce exposure to hazardous substances, such as water sprays or enclosures"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CountryLevel",
+  "@id" : "http:/purl.org/scimin-crm-mwf/CountryLevel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Level"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Covers",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Covers",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ContainmentSystem"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Liners"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Liners"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CrushingAndScreeningOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/CrushingAndScreeningOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Crushing and screening is the first controlled size reduction stage in the process. This is the main process in aggregate  production and a preparation process for further size reduction."
-  }, {
-    "@language" : "en",
-    "@value" : "MWEI BREF : Comminution process that reduces the particle size of ore to such a level that  grinding can be carried out. Usually, this is accomplished by compression of  ore against rigid surfaces, or by impact against surfaces in a rigidly constrained motion path."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@language" : "en",
-    "@value" : "MWEI BREF : Screening Separating material into size fractions."
+    "@value" : "Crushing and screening is the first controlled size reduction stage in the process. This is the main process in aggregate  production and a preparation process for further size reduction.\n\nMWEI BREF : Comminution process that reduces the particle size of ore to such a level that  grinding can be carried out. Usually, this is accomplished by compression of  ore against rigid surfaces, or by impact against surfaces in a rigidly constrained motion path.\n\nMWEI BREF : Screening Separating material into size fractions."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DesktopProximityGuideline",
+  "@id" : "http:/purl.org/scimin-crm-mwf/CrushingMillingEquipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "What machinery/equipment is suitable to achieve desired particle size."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/Equipment"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/DesktopProximityGuideline",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Guideline defining the scope and purpose of a desktop proximity analysis, and how to use its output"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Guidelines"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DewateringOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/DewateringOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "MWEI BREF : Process of removing water from an underground mine or open pit, or from the  surrounding rock or non-lithified area. The term is also commonly used for the reduction of water content in concentrates, extractive waste from mineral  processing and treatment sludge. In hydrocarbon extraction, dewatering may  refer to removing water from water-based drilling muds and cuttings."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DrillingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/DrillingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Drilling (and blasting) is the technology of achieving primary fragmentation of “in situ” minerals. This is the starting point for  most mineral processes with the exception of natural minerals in the form of sand and gravel."
+    "@value" : "Drilling (and blasting) is the technology of achieving primary fragmentation of “in situ” minerals. This is the starting point for  most mineral processes with the exception of natural minerals in the form of sand and gravel."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustEmission",
+  "@id" : "http:/purl.org/scimin-crm-mwf/DustEmission",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/DustHazard",
+  "@id" : "http:/purl.org/scimin-crm-mwf/DustHazard",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AirborneHazard"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EULevel",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EULevel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Level"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicActivity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EconomicActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicEvaluationOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EconomicEvaluationOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicRestriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EconomicRestriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Restriction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicSustainability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EconomicSustainability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Sustainability"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EconomicalImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicalRisk",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EconomicalRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The potential financial loss or cost associated with hazardous substance management or incidents"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Risk"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectricalTomographyOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ElectricalTomographyOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "non-invasive imaging technique that creates 2D or 3D images of an object's electrical properties by injecting electric current and measuring the voltage differences"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeotechnicalAssessmentOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ElectrodeEquipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ElectrodeEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationEquipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EmergencyProtocol",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EmergencyProtocol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Predefined procedures for responding to hazardous substances releases or other emergencies"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Enclosures",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Enclosures",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ControlMeasure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalAndRiskAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalAndRiskAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalFootprintEnvironmentalSustainability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalFootprintEnvironmentalSustainability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalSustainability"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalSustainability"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RegulationAndComplianceEnvironmentalSustainability"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RegulationAndComplianceEnvironmentalSustainability"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "MWEI BREF : The direct or indirect introduction, as a result of human activity, of \nsubstances, vibrations, heat or noise into air, water or land which may be \nharmful to human health or the quality of the environment, result in damage \nto material property, or impair or interfere with amenities and other legitimate \nuses of the environment."
-  }, {
-    "@value" : "Any change caused by a proposed activity to land, water, air and biodiversity"
-  }, {
-    "@value" : "The environmental effects identified and quantified through LCA in relation to mining operations."
+    "@value" : "Any change caused by a proposed activity to land, water, air and biodiversity. \nThe environmental effects identified and quantified through LCA in relation to mining operations.\n\nMWEI BREF : The direct or indirect introduction, as a result of human activity, of  substances, vibrations, heat or noise into air, water or land which may be harmful to human health or the quality of the environment, result in damage to material property, or impair or interfere with amenities and other legitimate uses of the environment."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpactMeasurement",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpactMeasurement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Measurement"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRestriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalRestriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Restriction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalRisk",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Potential harm to the environment caused by hazardous substances or activities"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Risk"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalSustainability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalSustainability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Sustainability"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Equipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StandardizedProtocols"
+    "@id" : "http:/purl.org/scimin-crm-mwf/StandardizedProtocols"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExcavationActivity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExcavationActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The process of digging or removing tailings, which may release hazardous substances into the air"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExecutionOfSamplingPlan",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExecutionOfSamplingPlan",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedBenefitScenario",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExpectedBenefitScenario",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Scenario"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedCostScenario",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExpectedCostScenario",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Scenario"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExpectedRiskScenario",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExpectedRiskScenario",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Scenario"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "This need to be furnished after expert discussion. \nAfter that we need to decide it should be object property or class.\nCurrently, we observe that it has many characteristics, for that reason we define as class."
-  } ]
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExploitationExtraction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationActivity",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "subclass of INSPIRE ExploratinActivity"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Equipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/FeedingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA",
+  "@id" : "http:/purl.org/scimin-crm-mwf/FeedingOperation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/MaterialHandlingOperation"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/GeneralLCA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "LCA is a method for evaluating environmental impacts across the entire life cycle of products, processes, or services."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LCA"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoElectricalInversionOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GeoElectricalInversionOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "geophysical process of mathematically modelling subsurface electrical resistivity distributions from measured geoelectrical data"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeotechnicalAssessmentOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysis",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GeochemicalAnalysis",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeochemicalAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GeochemicalAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoreferencedDataPoints",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GeoreferencedDataPoints",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GeotechnicalAssessmentOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Engineering analysis to determine the properties of a site's soil and rock, identifying conditions, risks, and mechanical properties to ensure the stability and safety of a construction or infrastructure project."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GoalAndScopeDefinition",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GoalAndScopeDefinition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeneralLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Granulometry",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "CQ: Crushing and Milling\nWhat is the particle size and size distribution of the mining waste?"
-  }, {
-    "@value" : "MINNERSA, SGS\nIn this case, it is the classification of a mineral's size. A particle size analysis determines the proportion of minerals in different fractions. This is an important characteristic when processing minerals."
+    "@value" : "It is the classification of a mineral's size. A particle size analysis determines the proportion of minerals in different fractions."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GreenHouseGasEmission",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GreenHouseGasEmission",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GrindingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GrindingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Grinding is the stage of size reduction (wet or dry) where the liberation size for individual minerals can be reached. By further size reduction filler (mineral powder) is produced."
-  }, {
-    "@language" : "en",
-    "@value" : "MWEI BREF : Comminution process yielding a fine product (< 1 mm), where size reduction \nis accomplished by abrasion and impact and sometimes supported by the free \nmotion of unconnected media such as rods, balls and pebbles."
+    "@value" : "Grinding is the stage of size reduction (wet or dry) where the liberation size for individual minerals can be reached. By further size reduction filler (mineral powder) is produced."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GroundPenetratingRadarOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/GroundPenetratingRadarOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeotechnicalAssessmentOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Guidelines",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsAssessmentMethod",
+  "@id" : "http:/purl.org/scimin-crm-mwf/HabitatsAssessmentMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityAssessmentMethod"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesAssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SpeciesAssessmentMethod"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/HabitatsImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The impact of a proposed activity on the extent and condition of habitats"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HabitatsManagementGuideline",
+  "@id" : "http:/purl.org/scimin-crm-mwf/HabitatsManagementGuideline",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Guideline defining how to decide on management measures that create the best possible positive outcome for habitat extent and condition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Guidelines"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HazardousSubstance",
+  "@id" : "http:/purl.org/scimin-crm-mwf/HazardousSubstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Any material that poses a threat to human health or the environment due to its chemical or physical properties"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/HealthImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Documented or potential effects of recovery operations on the health of nearby populations"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HealthRisk",
+  "@id" : "http:/purl.org/scimin-crm-mwf/HealthRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Potential harm to human health due to exposure to hazardous substances or unsafe conditions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Risk"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Humidity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Humidity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SiteCondition"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Impact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Incident",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Specific events involving hazardous substance release or exposure, including their nature and management"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/IndustrialMineral",
+  "@id" : "http:/purl.org/scimin-crm-mwf/IndustrialMineral",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Interpretation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Interpretation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeneralLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LCA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AssessmentMethod"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCI",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LCI",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeneralLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCIA",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LCIA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeneralLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeneralLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "As per D9.1, this term coined as analysis"
-  }, {
-    "@value" : "D2.1: Laboratory analyses are essential to deepen the characterization of materials present in MWFs, aiming to evaluate their potential for recovery or management."
-  }, {
-    "@value" : "This class has been created on the bais D2.2 Section 4.2.1.4\n\n\nSecondly on the basis of previous data received from the partners:\nQ4: The size and extent of the waste\nMineralogy- XRD\nSEM/EDS\nElectron probe microanalysis (EPMA)\nhttps://confluence.akka.eu/pages/viewpage.action?spaceKey=AKRSCIMIN&title=Data+Analysis+of+WP2+SGS"
+    "@value" : "Laboratory analyses are essential to deepen the characterization of materials present in MWFs, aiming to evaluate their potential for recovery or management."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LandImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LandImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LeachingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LeachingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "MWEI BREF : Extraction of soluble components from raw materials by the action of a percolating liquid (e.g. water). For example, gold can be extracted by heap \nleaching of a porous ore, or pulverised extractive waste from mineral  processing. Other methods are tank leaching of ore, concentrates or extractive waste from mineral processing and in-situ leaching. Leaching may also be an unwanted process leading to polluted drainage (see \"leachate\"). Bio-leaching is a particular form of leaching involving living organisms"
+    "@value" : "MWEI BREF : Extraction of soluble components from raw materials by the action of a percolating liquid (e.g. water). For example, gold can be extracted by heap leaching of a porous ore, or pulverised extractive waste from mineral processing. Other methods are tank leaching of ore, concentrates or extractive waste from mineral processing and in-situ leaching. Leaching may also be an unwanted process leading to polluted drainage (see \"leachate\"). Bio-leaching is a particular form of leaching involving living organisms"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LegalRestriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LegalRestriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Laws and regulations that may limit or condition recovery operations"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Restriction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Level",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LightPollution",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LightPollution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Liners",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Liners",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ContainmentSystem"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ContainmentSystem"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LoadingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LoadingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MaterialHandlingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LocalLevel",
+  "@id" : "http:/purl.org/scimin-crm-mwf/LocalLevel",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Level"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Location",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Location",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "General information, location of deposit, extisting infrastructure issues, map of location."
-  }, {
-    "@value" : "https://www.wikidata.org/wiki/Property:P625"
-  }, {
-    "@value" : "https://www.wikidata.org/wiki/Q142"
+    "@value" : "General information, location of deposit, extisting infrastructure issues, map of location.\n\nhttps://www.wikidata.org/wiki/Property:P625\nhttps://www.wikidata.org/wiki/Q142"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MacroscopicCharacteristics",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MacroscopicCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"
+    "@id" : "http:/purl.org/scimin-crm-mwf/core:Characteristics"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Material",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "INSPIRE: EarthMaterial is an abstract class which holds a description of a naturally occurring substance in the Earth. Earth Material represents material composition or substance, and is thus independent of quantity or location."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MaterialHandlingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Materials handling includes the technologies for moving the process flow (dry) forward by loading, transportation, storage  and feeding"
+    "@value" : "Materials handling includes the technologies for moving the process flow (dry) forward by loading, transportation, storage  and feeding"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialMeasurement",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MaterialMeasurement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Measurement"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Measurement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Metal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "More concept will be cleared in EXPERT\nCurrently, we read from the internet, \"Metal that exist in nature are minerals\"\n\nhttps://www.geologyin.com/2016/03/what-is-difference-between-rock-mineral.html"
-  }, {
-    "@value" : "On the basis of current infomation, received from the partner for queastion 3\n3) What form those metals are present in those minerals, \n\nThese things will be defined clearly with expert discussion."
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Methodology",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Methodology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metric",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Metric",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Metrics that translate collected data into representative information that can be used in decision-making"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MicroscopicCharacteristics",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MicroscopicCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"
+    "@id" : "http:/purl.org/scimin-crm-mwf/core:Characteristics"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MillingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MillingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "MWEI BREF : Operation during which ore is treated for the recovery and/or concentration of valuable minerals prior to shipment to a smelter or refinery. Milling\nprocesses include crushing, grinding, screening, concentration and dewatering. At a coal mine, the mill is referred to as a wash plant, tipple or cleaner"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Mine",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "MWEI BREF : Area under the control of an operator where mining occurs (see \"mining\"), \nincluding common related infrastructure and waste management activities."
-  }, {
-    "@value" : "INSPIRE: An excavation carried out for the extraction of mineral deposits."
-  }, {
-    "@value" : "Subclass of INSPIRE Mine Feature"
+    "@value" : "MWEI BREF : Area under the control of an operator where mining occurs (see \"mining\"), including common related infrastructure and waste management activities.\n\nINSPIRE: An excavation carried out for the extraction of mineral deposits."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Mineral",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Mineral is a natural inorganic substance precisely defined \naccording to its physical and chemical characteristics"
-  }, {
-    "@value" : "In the future, create a relation between mineral and metal to represent the chemical processes to do to extract the metal from the mineral.\n\nThis define on the basis of partner information.\nOn the current information which we received \"4 main questions we try to answer (which each require different methods):\" first 2 questions"
-  }, {
-    "@value" : "Subclass of Commodity Measure\nIf cutOffGrade and Grade is unrelated to quality we have to put new properties related to quality"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "INSPIRE: Mineral is defined as any naturally occurring inorganic element or compound having a periodically repeating arrangement of atoms and a characteristic chemical composition or range of compositions, resulting in distinctive physical properties"
+    "@value" : "Mineral is a natural inorganic substance precisely defined  according to its physical and chemical characteristics.\n\nINSPIRE: Mineral is defined as any naturally occurring inorganic element or compound having a periodically repeating arrangement of atoms and a characteristic chemical composition or range of compositions, resulting in distinctive physical properties."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralMeasurement",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MineralMeasurement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Measurement"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "MWEI BREF : Mineral processing (also \nbeneficiation or \nbenefication, ore \ndressing, mineral \ndressing, milling) \nProcesses to produce marketable mineral products (e.g. concentrates) from \nmineral resources. This is usually carried out on the mine or quarry site, the \nplant being referred to as the mineral processing plant (mill or concentrator). \nThe essential purpose is to reduce the bulk of the ore, which must be \ntransported to and processed by subsequent processes (e.g. smelting), by \nusing methods to separate the valuable (desired) mineral(s) from the gangue. \nThe marketable product of this is called concentrate, the remaining material is \ncalled extractive waste from mineral processing (e.g. tailings).\nMineral processing includes various procedures that rely on the mineral's \nphysical characteristics (i.e. particle size, density, magnetic properties, colour) \nor physico-chemical properties (surface tension, hydrophobicity, wettability)."
+    "@value" : "MWEI BREF : Mineral processing (also beneficiation or benefication, ore dressing, mineral dressing, milling) \nProcesses to produce marketable mineral products (e.g. concentrates) from mineral resources. This is usually carried out on the mine or quarry site, the plant being referred to as the mineral processing plant (mill or concentrator). .The essential purpose is to reduce the bulk of the ore, which must be transported to and processed by subsequent processes (e.g. smelting), by using methods to separate the valuable (desired) mineral(s) from the gangue. \nThe marketable product of this is called concentrate, the remaining material is called extractive waste from mineral processing (e.g. tailings).\nMineral processing includes various procedures that rely on the mineral's physical characteristics (i.e. particle size, density, magnetic properties, colour) or physico-chemical properties (surface tension, hydrophobicity, wettability)."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysis",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MineralogicalAnalysis",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MineralogicalAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Determines the types and relative amounts of minerals within a material, providing insights into its composition, properties, and formation conditions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralogicalCharacteristics",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MineralogicalCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"
+    "@id" : "http:/purl.org/scimin-crm-mwf/core:Characteristics"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "LCA in mining is a systematic method for identifying, quantifying, and evaluating the environmental impacts associated with the entire life cycle of mining-related processes and products, from exploration and extraction to processing, transportation, use, and end-of-life management."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "MWEI BREF : Waste resulting from the prospecting, extraction, treatment and storage of \nmineral resources and the working of quarries"
-  }, {
-    "@value" : "Mining activity exploits a mineral deposit, obtaining a concentrate (mineral object of the activity) and waste."
-  }, {
-    "@value" : "Subclass of Mining Waste from INSPIRE ontology\n\nNote: for URI consult to INSPIRE Team"
+    "@value" : "MWEI BREF : Waste resulting from the prospecting, extraction, treatment and storage of mineral resources and the working of quarries.\n\nMining activity exploits a mineral deposit, obtaining a concentrate (mineral object of the activity) and waste."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "MWEI BREF : Any area under the responsibility of an operator where extractive waste is \nhandled, treated, accumulated or deposited whether in a solid or liquid state or \nin solution or suspension. This includes, but is not limited to, Extractive \nWaste Facilities, excavation voids where extractive waste is placed back, and \nareas for temporary storage of extractive waste."
-  }, {
-    "@value" : "A mining waste facility is a designated site or structure used to store extractive waste (includes materials like waste rock and tailings from mining and mineral processing operations)."
-  }, {
-    "@value" : "Mining Waste Facilities (MWF): (SCIMIN-GA)\ndefined by JRC as any area designated for the accumulation or deposit of extractive waste, whether in solid or liquid state or in solution or suspension, derived from extracting & processing mineral resources. \nReference Grant Agreement (GA).\n\nMining Waste (INSPIRE Model)\nMining waste can be defined as a part of the materials that result from the exploration, mining and processing of substances governed by legislation on mines and quarries."
-  }, {
-    "@value" : "sublcass of mining wasting  from INSPIRE\n\nNote: for URI, we need to consult INSPIRE team because current it is not mentioned in specification document and nor on website"
+    "@value" : "A mining waste facility is a designated site or structure used to store extractive waste (includes materials like waste rock and tailings from mining and mineral processing operations).\n\nMWEI BREF : Any area under the responsibility of an operator where extractive waste is  handled, treated, accumulated or deposited whether in a solid or liquid state or  in solution or suspension. This includes, but is not limited to, Extractive \nWaste Facilities, excavation voids where extractive waste is placed back, and  areas for temporary storage of extractive waste.\n\nMining Waste (INSPIRE Model)\nMining waste can be defined as a part of the materials that result from the exploration, mining and processing of substances governed by legislation on mines and quarries."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteMeasurement",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteMeasurement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Measurement"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationEnvironmentalImpactProcedure",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MitigationEnvironmentalImpactProcedure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationProcedure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MitigationProcedure"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialAcceptanceProcedure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SocialAcceptanceProcedure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationProcedure",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MitigationProcedure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Procedure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Procedure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MonitoringRequirement",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MonitoringRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MorphologicalCharacteristics",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MorphologicalCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"
+    "@id" : "http:/purl.org/scimin-crm-mwf/core:Characteristics"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MulticableEquipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/MulticableEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationEquipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NACECode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "URI accessible on European site, for example : B7 : http://data.europa.eu/ux2/nace2.1/07\nDon't need to create any property"
-  } ]
+  "@id" : "http:/purl.org/scimin-crm-mwf/NACECode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NoisePollution",
+  "@id" : "http:/purl.org/scimin-crm-mwf/NoisePollution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Operation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "It is an Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Ore",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Ore",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : An ore is a mineral or rock containing metal ore mineral \nconcentrations that can be economically extracted. The ore is \nthe source from where the metal or other mineral substances \nare extracted"
+    "@value" : "An ore is a mineral or rock containing metal ore mineral concentrations that can be economically extracted. The ore is  the source from where the metal or other mineral substances are extracted"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PPEProtocol",
+  "@id" : "http:/purl.org/scimin-crm-mwf/PPEProtocol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Personal Protective Equipment (PPE), used to safeguard workers from exposure to hazardous substances"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Protocol"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SafetyProtocol"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SafetyProtocol"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Permit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "License or consent to do or say something. (MINERSA, SGS)"
+    "@value" : "License or consent to do or say something."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PetrologicalAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/PetrologicalAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAnalysis",
+  "@id" : "http:/purl.org/scimin-crm-mwf/PhysicalAnalysis",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PhysicalAndEnvironmentalTestingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/PhysicalAndEnvironmentalTestingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Preparation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Preparation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPlan"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PrimaryCrushingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/PrimaryCrushingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "MWEI BREF : Process of reducing ore into smaller fragments to prepare it for further  processing and/or so that it can be transported to the processing plant. In \nunderground mines, the primary crusher is often located underground or at the \nentrance to the processing plant."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Procedure",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Procedure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingEquipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ProcessingEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "What machinery/equipment is suitable to achieve desired particle size."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Equipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingPlant",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ProcessingPlant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "MWEI BREF : Facility where mineral processing is carried out.\nMineral processing (also \nbeneficiation or \nbenefication, ore \ndressing, mineral \ndressing, milling) \nProcesses to produce marketable mineral products (e.g. concentrates) from \nmineral resources. This is usually carried out on the mine or quarry site, the \nplant being referred to as the mineral processing plant (mill or concentrator). \nThe essential purpose is to reduce the bulk of the ore, which must be \ntransported to and processed by subsequent processes (e.g. smelting), by \nusing methods to separate the valuable (desired) mineral(s) from the gangue. \nThe marketable product of this is called concentrate, the remaining material is \ncalled extractive waste from mineral processing (e.g. tailings).\nMineral processing includes various procedures that rely on the mineral's \nphysical characteristics (i.e. particle size, density, magnetic properties, colour) \nor physico-chemical properties (surface tension, hydrophobicity, wettability)."
+    "@value" : "MWEI BREF : Facility where mineral processing is carried out.\nMineral processing (also beneficiation or benefication, ore dressing, mineral dressing, milling) \nProcesses to produce marketable mineral products (e.g. concentrates) from mineral resources. This is usually carried out on the mine or quarry site, the plant being referred to as the mineral processing plant (mill or concentrator). The essential purpose is to reduce the bulk of the ore, which must be transported to and processed by subsequent processes (e.g. smelting), by using methods to separate the valuable (desired) mineral(s) from the gangue. \nThe marketable product of this is called concentrate, the remaining material is called extractive waste from mineral processing (e.g. tailings).\nMineral processing includes various procedures that rely on the mineral's physical characteristics (i.e. particle size, density, magnetic properties, colour) or physico-chemical properties (surface tension, hydrophobicity, wettability)."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Protocol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ControlMeasure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/PyroProcessingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/PyroProcessingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Pyro processing includes the technologies for upgrading of the mineral fractions by drying, calcining or sintering."
-  }, {
-    "@language" : "en",
-    "@value" : "MWEI BREF : Incineration is a high-temperature combustion/oxidation process in which organic wastes are converted into gases and solid residue. Incineration \nobjectives usually include reducing toxicity and volume prior to disposal of \nsolid residues."
+    "@value" : "Pyro processing includes the technologies for upgrading of the mineral fractions by drying, calcining or sintering."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/QualityAssuranceAndControlOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/QualityAssuranceAndControlOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Reagent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A substance or compound added to a system to cause a chemical reaction or test for the presence of another substance"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ReclamationActivity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ReclamationActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The relationship between reclamation and its impact on species presence and extinction risk, habitat extent and condition"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryActivity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/RecoveryActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique",
+  "@id" : "http:/purl.org/scimin-crm-mwf/RecoveryTechnique",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Technique"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Regulation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Regulation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RegulationAndComplianceEnvironmentalSustainability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/RegulationAndComplianceEnvironmentalSustainability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalSustainability"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalSustainability"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResidualMaterial",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ResidualMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Waste material remaining after recovery processes, which may still contain hazardous substances"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResistivimeterEquipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ResistivimeterEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationEquipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationEquipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RestorationTechnique",
+  "@id" : "http:/purl.org/scimin-crm-mwf/RestorationTechnique",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Catalog of restoration activities and their relative success in positively impacting species and habitats under different abiotic, biotic, and landscape conditions"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Technique"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Restriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Risk",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The probability and severity of adverse effects resulting from exposure to a hazard"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Rock",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Rock",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Rock is an aggregate of one or several minerals, forming the great  mass of the earth’s crust. In certain cases, rock may consist of  one single mineral as in the cases of limestone, which consists  only of calcite, stratified clayish rock and quartzite layers, etc.  Rocks may be solid, like granite, or unconsolidated like sand.  Normally, rocks are formed by more than one mineral. Some  of the minerals are predominant and form the essential  components, and others, in smaller proportions, constitute the  accessory minerals."
+    "@value" : "Rock is an aggregate of one or several minerals, forming the great  mass of the earth’s crust. In certain cases, rock may consist of  one single mineral as in the cases of limestone, which consists  only of calcite, stratified clayish rock and quartzite layers, etc.  Rocks may be solid, like granite, or unconsolidated like sand.  Normally, rocks are formed by more than one mineral. Some  of the minerals are predominant and form the essential  components, and others, in smaller proportions, constitute the  accessory minerals."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SafetyProtocol",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SafetyProtocol",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Standard procedures and guidelines designed to protect workers from health and safety risks"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Protocol"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Protocol"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleCrushingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SampleCrushingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPreparationOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleDryingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SampleDryingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPreparationOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SampleMilingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SampleMilingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPreparationOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingActivity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SamplingActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "MINNERSA, SGS\nIt is work required to take a sample"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is work required to take a sample"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPlan",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPreparationOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPreparationOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Once a mineral sample has been taken, a series of tasks must be carried out to allow its subsequent analysis."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Scenario",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SiteCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SlurryProcessingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SlurryProcessingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "METSO Handbook : Slurry processing includes the technologies for wet processing of mineral fractions."
-  }, {
-    "@language" : "en",
-    "@value" : "MWEI BREF : Slurry A suspension of liquids and solids"
+    "@value" : "Slurry processing includes the technologies for wet processing of mineral fractions."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MineralProcessingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MineralProcessingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialAcceptanceProcedure",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SocialAcceptanceProcedure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MitigationProcedure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MitigationProcedure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SocialImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialRestriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SocialRestriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Restriction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SocialSustainability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SocialSustainability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Sustainability"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpatialRestriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SpatialRestriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Restriction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesAssessmentMethod",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SpeciesAssessmentMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityAssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityAssessmentMethod"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SpeciesImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The impact of a proposed activity on the presence or absence of species and their level of extinction risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SpeciesManagementGuideline",
+  "@id" : "http:/purl.org/scimin-crm-mwf/SpeciesManagementGuideline",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Guideline defining how to decide on management measures that create the best possible positive outcome for species presence and reducing extinction risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Guidelines"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Guidelines"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StandardizedProtocols",
+  "@id" : "http:/purl.org/scimin-crm-mwf/StandardizedProtocols",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "MINNERSA, SGS\nA set of rules, procedures, or guidelines agreed upon and recognized by a community or industry to ensure consistency, interoperability, and efficiency in various situations"
+    "@value" : "A set of rules, procedures, or guidelines agreed upon and recognized by a community or industry to ensure consistency, interoperability, and efficiency in various situations"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExecutionOfSamplingPlan"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExecutionOfSamplingPlan"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Standards",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Standards",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "International and national guidelines and norms for conducting LCA in the mining sector."
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/StoringOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/StoringOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MaterialHandlingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Strategy",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Strategy",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPlan"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Sustainability",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Technique",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TechnologicalRestriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/TechnologicalRestriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Restriction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ThermalAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ThermalAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Added as per D9.1"
+    "@value" : ""
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ThermogravimetricAnalysisOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/ThermogravimetricAnalysisOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Added as per D9.1"
+    "@value" : ""
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportEquipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/TransportEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Equipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/TransportationOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/TransportationOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MaterialHandlingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/UnloadingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/UnloadingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MaterialHandlingOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MaterialHandlingOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VerticalElectricalSoundingOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/VerticalElectricalSoundingOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeotechnicalAssessmentOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeotechnicalAssessmentOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/VibrationEmission",
+  "@id" : "http:/purl.org/scimin-crm-mwf/VibrationEmission",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteDisposalMethod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Note: Read the INSPIRE model, it talks about directives."
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteType",
+  "@id" : "http:/purl.org/scimin-crm-mwf/WasteDisposalMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterPollution",
+  "@id" : "http:/purl.org/scimin-crm-mwf/WasteType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/WaterPollution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WaterSprays",
+  "@id" : "http:/purl.org/scimin-crm-mwf/WaterSprays",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ControlMeasure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Weather",
+  "@id" : "http:/purl.org/scimin-crm-mwf/Weather",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SiteCondition"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WildlifeImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/WildlifeImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/BiodiversityImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/BiodiversityImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/alternativeTo",
+  "@id" : "http:/purl.org/scimin-crm-mwf/alternativeTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A safer or more sustainable substitute for a hazardous reagent used in industrial processes"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/appliesTo",
+  "@id" : "http:/purl.org/scimin-crm-mwf/appliesTo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LCA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/assess",
+  "@id" : "http:/purl.org/scimin-crm-mwf/assess",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AssessmentMethod"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/canCauseImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/canCauseImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/containsHazardousSubstance",
+  "@id" : "http:/purl.org/scimin-crm-mwf/containsHazardousSubstance",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HazardousSubstance"
+    "@id" : "http:/purl.org/scimin-crm-mwf/HazardousSubstance"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics",
+  "@id" : "http:/purl.org/scimin-crm-mwf/core:Characteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/definedByRegulation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/definedByRegulation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MonitoringRequirement"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MonitoringRequirement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Regulation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Regulation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/deliveredByCompetentAuthority",
+  "@id" : "http:/purl.org/scimin-crm-mwf/deliveredByCompetentAuthority",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Permit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Authority"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Authority"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/generateResidualMaterial",
+  "@id" : "http:/purl.org/scimin-crm-mwf/generateResidualMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Waste material remaining after recovery processes, which may still contain hazardous substances"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResidualMaterial"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ResidualMaterial"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasActivity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAirboneHazardConcentration",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasAirboneHazardConcentration",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "The amount and density of airborne particulate matter released during excavation activities"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AirborneHazard"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAirborneHazard",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasAirborneHazard",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExcavationActivity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExcavationActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AirborneHazard"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasArea",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasArea",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "This term is analogus to structure of deposit/mine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Area"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentData",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasAssessmentData",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AssessmentMethod"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentMethod",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasAssessmentMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AssessmentMethod"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasAssessmentMetric",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasAssessmentMetric",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AssessmentMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AssessmentMethod"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metric"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Metric"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCategory",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasCategory",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Measurement"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Measurement"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCharacteristics",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasCharacteristics",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/core:Characteristics"
+    "@id" : "http:/purl.org/scimin-crm-mwf/core:Characteristics"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasCommunityEngagementStrategy",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasCommunityEngagementStrategy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/CommunityEngagementStrategy"
+    "@id" : "http:/purl.org/scimin-crm-mwf/CommunityEngagementStrategy"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasComposition",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasComposition",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasControlMeasure",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasControlMeasure",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"
+    "@id" : "http:/purl.org/scimin-crm-mwf/AirborneHazard"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ResidualMaterial"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ResidualMaterial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ControlMeasure"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDensity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasDensity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDepth",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasDepth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasDrillholeExtraction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasDrillholeExtraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExploitationExtraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEconomicEvaluation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEconomicEvaluation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicEvaluationOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EconomicEvaluationOperation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEfficiency",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEfficiency",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ControlMeasure"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ControlMeasure"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -1764,696 +1704,694 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEmergencyProtocol",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEmergencyProtocol",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/HazardousSubstance"
+    "@id" : "http:/purl.org/scimin-crm-mwf/HazardousSubstance"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EmergencyProtocol"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EmergencyProtocol"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnergy",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEnergy",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Equipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnvironmentalAndRiskAnalysis",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEnvironmentalAndRiskAnalysis",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalAndRiskAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalAndRiskAnalysisOperation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEnvironmentalImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEnvironmentalImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingPlant"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ProcessingPlant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EnvironmentalImpact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/EnvironmentalImpact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEquipment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEquipment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Equipment"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Equipment"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasEvaluationParameter",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasEvaluationParameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPlan"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExecutionofSamplingPlan",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasExecutionofSamplingPlan",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPlan"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExecutionOfSamplingPlan"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExecutionOfSamplingPlan"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExploitationExtraction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasExploitationExtraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExploitationExtraction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasExplorationActivity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasExplorationActivity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExplorationActivity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExplorationActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasFinished",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasFinished",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeoDP",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasGeoDP",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/GeoreferencedDataPoints"
+    "@id" : "http:/purl.org/scimin-crm-mwf/GeoreferencedDataPoints"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeographicalScale",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasGeographicalScale",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Both the scale that a proposed activity takes up in the landscape as well as its environmental impact outside its boundary"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGeotechnicalStability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasGeotechnicalStability",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasGranulometry",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasGranulometry",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Granulometry"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasHeight",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasHeight",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Area"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasImpact",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasImpact",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RestorationTechnique"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RestorationTechnique"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Impact"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Impact"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasIncident",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasIncident",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Incident"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasInput",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasInput",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLaboratoryAnalysis",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLCAInput",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SamplingPlan"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/LaboratoryAnalysisOperation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLegalStatus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLength",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLevel",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLCARequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLaboratoryAnalysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/SamplingPlan"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Level"
+    "@id" : "http:/purl.org/scimin-crm-mwf/LaboratoryAnalysisOperation"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLegalStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/Area"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/Scenario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/Level"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLikelihood",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLikelihood",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasLocation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Futher it would be elaborated depending upon the information\nhasCoordinateLocation would be defined in future depending GIS information"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Location"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Location"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMW",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMW",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWF"
+    "@id" : "http:/purl.org/scimin-crm-mwf/hasMWF"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWF",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMWF",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMWFMaterial",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMWFMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMaterial",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMaterial",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMechanicalResistance",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMechanicalResistance",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MacroscopicCharacteristics"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MacroscopicCharacteristics"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMetal",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMetal",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Metal"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMethodology",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMethodology",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Methodology"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Methodology"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMineName",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMineName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMineral",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "This property solve the case study 1.2 type of mineralization feature main minerals"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasMorphologicalStructure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
-  } ]
-}, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasNACECode",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMineral",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/EconomicActivity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/NACECode"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOpenPit",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasMorphologicalStructure",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasNACECode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/EconomicActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/NACECode"
+  } ]
+}, {
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasOpenPit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExploitationExtraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOperation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasOperation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasOwner",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasOwner",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasParticleSize",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasParticleSize",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Pilot Sites\nThe particle size of MWF material"
+    "@value" : "The particle size of MWF material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Granulometry"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasProcessingPlant",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasProcessingPlant",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ProcessingPlant"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ProcessingPlant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasProximity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasProximity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasQuality",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasQuality",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasQuantity",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasQuantity",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mineral"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mineral"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRecommandedParameter",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasRecommandedParameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RecoveryTechnique"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRegulation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasRegulation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Regulation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Regulation"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRemediationTechnique",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasRemediationTechnique",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRequirment",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasRequirment",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "LCA Mining Requirements\nThe technical, methodological, and data-related prerequisites for conducting an accurate and transparent LCA in the mining sector, including access to reliable data, clearly defined system boundaries, functional"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRestorationTechnique",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasRestorationTechnique",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ReclamationActivity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ReclamationActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RestorationTechnique"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RestorationTechnique"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRestriction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasRestriction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Restriction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Restriction"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasRisk",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasRisk",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Risk"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Risk"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasScenario",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasScenario",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExploitationExtraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Scenario"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Scenario"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSiteCondition",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasSiteCondition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/SiteCondition"
+    "@id" : "http:/purl.org/scimin-crm-mwf/SiteCondition"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSituation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasSituation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "LCA Mining Situations\n\nDifferent contexts or application areas in which LCA is used in mining."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSizeDistribution",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasSizeDistribution",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Pilot Sites\n\nThe particle size distribution of MWF material"
+    "@value" : "The particle size distribution of MWF material"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Granulometry"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Granulometry"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasStatus",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasStatus",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Mine"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Mine"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasSustainability",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasSustainability",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Sustainability"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Sustainability"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasTechnique",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasTechnique",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Operation"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Operation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Technique"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Technique"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasThickness",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasThickness",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasUndergroundExtraction",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasUndergroundExtraction",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExploitationExtraction"
+    "@id" : "http:/purl.org/scimin-crm-mwf/ExploitationExtraction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasVegetation",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasVegetation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasVolume",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasVolume",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWasteDisposalMethod",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasWasteDisposalMethod",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteDisposalMethod"
+    "@id" : "http:/purl.org/scimin-crm-mwf/WasteDisposalMethod"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWasteType",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasWasteType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
   }, {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWasteFacility"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWasteFacility"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/WasteType"
+    "@id" : "http:/purl.org/scimin-crm-mwf/WasteType"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWeight",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasWeight",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MorphologicalCharacteristics"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MorphologicalCharacteristics"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/hasWidth",
+  "@id" : "http:/purl.org/scimin-crm-mwf/hasWidth",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Area"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Area"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHazardous",
+  "@id" : "http:/purl.org/scimin-crm-mwf/isHazardous",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "A reagent that poses risks to health or the environment due to its toxic, corrosive or reactive properties"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHeavyMetal",
+  "@id" : "http:/purl.org/scimin-crm-mwf/isHeavyMetal",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Dense elements or compound, often metals, found in tailings that may pose environmental or health risks"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metal"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Metal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isHistoricalIncident",
+  "@id" : "http:/purl.org/scimin-crm-mwf/isHistoricalIncident",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Incident"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Incident"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isMetricSuccessful",
+  "@id" : "http:/purl.org/scimin-crm-mwf/isMetricSuccessful",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Relevant data collection and associated metrics that translate into representative information that can be used to define whether restoration has a positive impact on biodiversity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Metric"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Metric"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isReagentConventional",
+  "@id" : "http:/purl.org/scimin-crm-mwf/isReagentConventional",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isUsedOn",
+  "@id" : "http:/purl.org/scimin-crm-mwf/isUsedOn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Material"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Material"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/isWasteType",
+  "@id" : "http:/purl.org/scimin-crm-mwf/isWasteType",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/needPermit",
+  "@id" : "http:/purl.org/scimin-crm-mwf/needPermit",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Activity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Activity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Permit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/needsMonitoringRequirement",
+  "@id" : "http:/purl.org/scimin-crm-mwf/needsMonitoringRequirement",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Permit"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Permit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MonitoringRequirement"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MonitoringRequirement"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/recoversMW",
+  "@id" : "http:/purl.org/scimin-crm-mwf/recoversMW",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryActivity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RecoveryActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningWaste"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningWaste"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesReagent",
+  "@id" : "http:/purl.org/scimin-crm-mwf/usesReagent",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RecoveryTechnique"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Reagent"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Reagent"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesStandard",
+  "@id" : "http:/purl.org/scimin-crm-mwf/usesStandard",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/MiningLCA"
+    "@id" : "http:/purl.org/scimin-crm-mwf/MiningLCA"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/Standards"
+    "@id" : "http:/purl.org/scimin-crm-mwf/Standards"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/usesTechnique",
+  "@id" : "http:/purl.org/scimin-crm-mwf/usesTechnique",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryActivity"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RecoveryActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/RecoveryTechnique"
-  } ]
-}, {
-  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/ExcavationActivity"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/rajesh.piryani/ontologies/2025/3/SCIMIN_CRM/AirborneHazard"
+    "@id" : "http:/purl.org/scimin-crm-mwf/RecoveryTechnique"
   } ]
 } ]
